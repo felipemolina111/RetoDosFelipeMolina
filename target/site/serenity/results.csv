@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"agregar productos carro de compras","agregar 2 productos carro comprar","SUCCESS","2022-08-04T08:55:39.7590476-05:00[America/Bogota]","0.0","10.61"
+"agregar productos carro de compras","agregar dos productos carro comprar","PENDING","2022-08-04T08:57:02.2675349-05:00[America/Bogota]","0.0","10.26"
+"login","login exitoso","ERROR","2022-08-04T21:01:39.5939742-05:00[America/Bogota]","0.0","33.86"
+"pasar por caja","pasar por caja tres productos","SUCCESS","2022-08-05T14:51:15.2426011-05:00[America/Bogota]","0.0","71.63"
