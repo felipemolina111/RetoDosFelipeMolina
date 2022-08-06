@@ -23,7 +23,7 @@ public class CarroComprasStep {
     public void clickAumentarCantidad(){
         carroComprasPageObject.getDriver().
                 findElement(carroComprasPageObject.getBtnAumentarCantidad()).click();
-        esperaImplicita.esperaImplicita(2);
+        esperaImplicita.esperaImplicita(3);
     }
 
 

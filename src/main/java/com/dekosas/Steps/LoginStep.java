@@ -31,7 +31,7 @@ public class LoginStep {
     @Step
     public void clickEntrar (){
     loginPageObject.getDriver().findElement(loginPageObject.getBtnEntrar()).click();
-      esperaImplicita.esperaImplicita(2);
+      esperaImplicita.esperaImplicita(4);
     }
 
 }
