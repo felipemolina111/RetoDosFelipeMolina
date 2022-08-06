@@ -3,5 +3,5 @@
 Característica: login
   Escenario: login exitoso
     Dado el usuario se encuentre en la pagina web
-    Cuando ingrese el usuario y la contraseña
-    Entonces visualizara el mensaje Mi Cuenta
+    Cuando el usuario ingrese el usuario y la contraseña
+    Entonces el usuario visualizara el mensaje Mi Cuenta

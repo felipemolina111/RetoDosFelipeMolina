@@ -21,32 +21,29 @@ public class PasarPorCajaStepDefinition {
     DatosEnvioStep datosEnvioStep;
 
 
-    @Cuando("^agregar tres articulos al carro de compra$")
+    @Cuando("^el usuario agrega tres articulos al carro de compra$")
     public void agregarTresArticulosAlCarroDeCompra() {
     carroComprasStep.ingresarNuevaBusqueda();
     carroComprasStep.clickEnterBusqueda();
     busquedaBotellaTritanStep.bajarScroll();
     busquedaBotellaTritanStep.flotarMouseSobreArticulo();
     busquedaBotellaTritanStep.clickAgregarAlCarro();
-
     carroComprasStep.ingresarNuevaBusqueda();
     carroComprasStep.clickEnterBusqueda();
     busquedaBotellaTritanStep.bajarScroll();
     busquedaBotellaTritanStep.flotarMouseSobreArticuloDos();
     busquedaBotellaTritanStep.clickAgregarAlCarroDos();
-
     carroComprasStep.ingresarNuevaBusqueda();
     carroComprasStep.clickEnterBusqueda();
     busquedaBotellaTritanStep.bajarScroll();
     busquedaBotellaTritanStep.flotarMouseSobreArticuloTres();
     busquedaBotellaTritanStep.clickAgregarAlCarroTres();
-
     carroComprasStep.esperarMensajeTotalPedido();
     carroComprasStep.clickPasarPorCaja();
     }
 
 
-    @Cuando("^passar por caja - llenar los datos y cancelar compra$")
+    @Cuando("^el usuario da click en pasar por caja - llenar los datos y cancelar compra$")
     public void passarPorCajaLlenarLosDatosYCancelarCompra() throws IOException {
         datosEnvioStep.esperarMensajeDatosDeEnvio();
         datosEnvioStep.ingresarDireccion();
@@ -61,23 +58,19 @@ public class PasarPorCajaStepDefinition {
         datosEnvioStep.esperaBotonAceptar();
         datosEnvioStep.clickAceptarCancelarCompra();
         datosEnvioStep.esperaBotonCancelarCompra();
-
-
         datosEnvioStep.clickCancelarCompraArticulo();
         datosEnvioStep.esperaBotonAceptar();
         datosEnvioStep.clickAceptarCancelarCompra();
         datosEnvioStep.esperaBotonCancelarCompra();
-
         datosEnvioStep.clickCancelarCompraArticulo();
         datosEnvioStep.esperaBotonAceptar();
         datosEnvioStep.clickAceptarCancelarCompra();
 
     }
 
-    @Entonces("^visualizara no tienes ningun articulo en tu carrito de compras$")
+    @Entonces("^el usuario visualizara no tienes ningun articulo en tu carrito de compras$")
     public void visualizaraNoTienesNingunArticuloEnTuCarritoDeCompras() {
-
-       // datosEnvioStep.validarCarroVacio();
+       datosEnvioStep.validarCarroVacio();
     }
 
 

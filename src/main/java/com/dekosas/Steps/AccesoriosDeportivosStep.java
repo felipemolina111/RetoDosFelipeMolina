@@ -17,12 +17,10 @@ public class AccesoriosDeportivosStep {
     public void bajarScroll(){
         scroll.scrollElemento(accesoriosDeportivosPageObject.getDriver(),
                 accesoriosDeportivosPageObject.getColomnaMain());
-
     }
 
     @Step
     public void clickBotellasDeportivas (){
-
        accesoriosDeportivosPageObject.getDriver().
                findElement(accesoriosDeportivosPageObject.getBtnBotellasDeportivas()).click();
     }

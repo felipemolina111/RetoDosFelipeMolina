@@ -14,18 +14,10 @@ public class BusquedaBotellaTritanPageObject extends PageObject {
     By columnMain = By.xpath("//div[@class='search results']");
 
     public By getBtnAgregarAlCarro() { return btnAgregarAlCarro; }
-
     public By getBtnAgregarAlCarroDos() { return btnAgregarAlCarroDos; }
-
     public By getBtnAgregarAlCarroTres() { return btnAgregarAlCarroTres; }
-
     public By getImgArticulo() { return imgArticulo; }
-
     public By getImgArticuloDos() { return imgArticuloDos; }
-
     public By getImgArticuloTres() { return imgArticuloTres; }
-
     public By getColumnMain() { return columnMain; }
-
-
 }

@@ -12,8 +12,6 @@ public class BotellasDeportivasPageObject extends PageObject {
 
 
     public By getImgArticulo() { return imgArticulo; }
-
     public By getBtnAgregarAlCarro() { return btnAgregarAlCarro; }
-
     public By getColumnMain() { return columnMain; }
 }

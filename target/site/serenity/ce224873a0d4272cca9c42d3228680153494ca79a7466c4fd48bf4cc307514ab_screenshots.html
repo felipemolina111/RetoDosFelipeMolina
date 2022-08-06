@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-08-2022 16:51</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-08-2022 17:59</span>
     <br style="clear:left"/>
 </div>
 
@@ -167,9 +167,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">pasar por caja tres productos
+                                <span class="error-color">pasar por caja tres productos
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -186,57 +186,96 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'//strong[text()='No tienes ning&uacute;n art&iacute;culo en tu carrito de compras.']'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.dekosas.Steps.DatosEnvioStep.validarCarroVacio(DatosEnvioStep.java:91)<br />com.dekosas.StepDefinitions.PasarPorCajaStepDefinition.visualizaraNoTienesNingunArticuloEnTuCarritoDeCompras(PasarPorCajaStepDefinition.java:80)<br />✽.visualizara no tienes ningun articulo en tu carrito de compras(src/test/resources/features/pasarPorCaja.feature:12)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource1490174738719468542.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="f9819300e7af1d9e5f881b85be69540d14444669d47faae3230e722c849e374e.png" title=" Dado el usuario se encuentre en la pagina web" width="1366"/>
-                <img src="f9819300e7af1d9e5f881b85be69540d14444669d47faae3230e722c849e374e.png" title=" Abrir pagina" width="1366"/>
-                <img src="f9819300e7af1d9e5f881b85be69540d14444669d47faae3230e722c849e374e.png" title=" Dado el usuario se encuentre en la pagina web (completed)" width="1366"/>
-                <img src="0a0b5f625b1a998a01cb0a1d74922466ba53854d7977888ce1f81abf9566d862.png" title=" Dado ingrese el usuario y la contrase&ntilde;a" width="1366"/>
-                <img src="0a0b5f625b1a998a01cb0a1d74922466ba53854d7977888ce1f81abf9566d862.png" title=" Click mi cuenta" width="1366"/>
-                <img src="618005c9d620aae992f5801faf5ba5d448218430fb533240bc9c1ea3216abb8e.png" title=" Click mi cuenta (completed)" width="1366"/>
-                <img src="618005c9d620aae992f5801faf5ba5d448218430fb533240bc9c1ea3216abb8e.png" title=" Ingresar correo" width="1366"/>
-                <img src="3137e68260472083ca57514066b6e46c6a1da9eeab7001152ba1fd320a5c53ef.png" title=" Ingresar correo (completed)" width="1366"/>
-                <img src="3137e68260472083ca57514066b6e46c6a1da9eeab7001152ba1fd320a5c53ef.png" title=" Ingresar clave" width="1366"/>
+                <img src="20d6226cf97c08eae5edd4ed4dd537e3cbc869ae324f9d007d68aeecc21f5c59.png" title=" Dado el usuario se encuentre en la pagina web" width="1366"/>
+                <img src="20d6226cf97c08eae5edd4ed4dd537e3cbc869ae324f9d007d68aeecc21f5c59.png" title=" Abrir pagina" width="1366"/>
+                <img src="20d6226cf97c08eae5edd4ed4dd537e3cbc869ae324f9d007d68aeecc21f5c59.png" title=" Dado el usuario se encuentre en la pagina web (completed)" width="1366"/>
+                <img src="40770b09e50fa0e31dd43096907ab786a95e277c2d5b61d29c329dcaffa6614b.png" title=" Dado el usuario ingrese el usuario y la contrase&ntilde;a" width="1366"/>
+                <img src="40770b09e50fa0e31dd43096907ab786a95e277c2d5b61d29c329dcaffa6614b.png" title=" Click mi cuenta" width="1366"/>
+                <img src="24d062410e15ec7d7f66d88c896a56aa9ea8ec64d04bfc62a09cfdb63cb005b6.png" title=" Click mi cuenta (completed)" width="1366"/>
+                <img src="24d062410e15ec7d7f66d88c896a56aa9ea8ec64d04bfc62a09cfdb63cb005b6.png" title=" Ingresar correo" width="1366"/>
+                <img src="4dc8b3d7846a6f8a411bf212ba7edc8f27c3d0666aca6e9fe1b3056d39d44f30.png" title=" Ingresar correo (completed)" width="1366"/>
+                <img src="4dc8b3d7846a6f8a411bf212ba7edc8f27c3d0666aca6e9fe1b3056d39d44f30.png" title=" Ingresar clave" width="1366"/>
                 <img src="72dea7c1ba72cbd8918da91597cc385413ef278146c5abde4646f25f134387a6.png" title=" Ingresar clave (completed)" width="1366"/>
                 <img src="72dea7c1ba72cbd8918da91597cc385413ef278146c5abde4646f25f134387a6.png" title=" Click entrar" width="1366"/>
-                <img src="0a0b5f625b1a998a01cb0a1d74922466ba53854d7977888ce1f81abf9566d862.png" title=" Click entrar (completed)" width="1366"/>
-                <img src="0a0b5f625b1a998a01cb0a1d74922466ba53854d7977888ce1f81abf9566d862.png" title=" Dado ingrese el usuario y la contrase&ntilde;a (completed)" width="1366"/>
-                <img src="d004857e0e43bc44fe8e1dff766c189dca9b13b571edf1bc9f8729f2e7b45624.png" title=" Cuando agregar tres articulos al carro de compra" width="1366"/>
-                <img src="d004857e0e43bc44fe8e1dff766c189dca9b13b571edf1bc9f8729f2e7b45624.png" title=" Ingresar nueva busqueda" width="1366"/>
-                <img src="506873878d15404463c7e1f71ad6e5815aa56dcaf5c758adef2ce86cd6360976.png" title=" Ingresar nueva busqueda (completed)" width="1366"/>
-                <img src="506873878d15404463c7e1f71ad6e5815aa56dcaf5c758adef2ce86cd6360976.png" title=" Click enter busqueda" width="1366"/>
+                <img src="69d0cd181f5b973cddda54486595d58b811b51c71d4d9aa828890c330a91f98d.png" title=" Click entrar (completed)" width="1366"/>
+                <img src="69d0cd181f5b973cddda54486595d58b811b51c71d4d9aa828890c330a91f98d.png" title=" Dado el usuario ingrese el usuario y la contrase&ntilde;a (completed)" width="1366"/>
+                <img src="99cbbc800dae26ce0d1a849e8e239e0066cb797588308dc2e2d2994bc47e45f7.png" title=" Cuando agregar tres articulos al carro de compra" width="1366"/>
+                <img src="99cbbc800dae26ce0d1a849e8e239e0066cb797588308dc2e2d2994bc47e45f7.png" title=" Ingresar nueva busqueda" width="1366"/>
+                <img src="99cbbc800dae26ce0d1a849e8e239e0066cb797588308dc2e2d2994bc47e45f7.png" title=" Click enter busqueda" width="1366"/>
                 <img src="61a19f212f4e8d8cfbc1c4ab5a287baaab6b387e9d504b9e2f3dd59ca190b108.png" title=" Click enter busqueda (completed)" width="1366"/>
                 <img src="61a19f212f4e8d8cfbc1c4ab5a287baaab6b387e9d504b9e2f3dd59ca190b108.png" title=" Bajar scroll" width="1366"/>
-                <img src="04e188d7f9d244a806e56917492d957587e5e8792943d9179bcb82801979df97.png" title=" Bajar scroll (completed)" width="1366"/>
-                <img src="04e188d7f9d244a806e56917492d957587e5e8792943d9179bcb82801979df97.png" title=" Flotar mouse sobre articulo" width="1366"/>
-                <img src="fa51215f7a39804da2a548e22bd250cf3c80712ef90447900918752dfb089fb3.png" title=" Flotar mouse sobre articulo (completed)" width="1366"/>
-                <img src="fa51215f7a39804da2a548e22bd250cf3c80712ef90447900918752dfb089fb3.png" title=" Click agregar al carro" width="1366"/>
-                <img src="20e275c461f48a82de85f14c9bbf3945e6c7d917cf2186d1d8f692bc04845286.png" title=" Click agregar al carro (completed)" width="1366"/>
-                <img src="20e275c461f48a82de85f14c9bbf3945e6c7d917cf2186d1d8f692bc04845286.png" title=" Ingresar nueva busqueda" width="1366"/>
-                <img src="50f8f712ea9a8fd7b2f882371170f599f44669ef0a4a353100a2b4c9df6ed7a6.png" title=" Ingresar nueva busqueda (completed)" width="1366"/>
-                <img src="50f8f712ea9a8fd7b2f882371170f599f44669ef0a4a353100a2b4c9df6ed7a6.png" title=" Click enter busqueda" width="1366"/>
-                <img src="d398aa70bedb2a4f388e647dcdf99409de747bbc40d4983c42502919d010e797.png" title=" Click enter busqueda (completed)" width="1366"/>
-                <img src="d398aa70bedb2a4f388e647dcdf99409de747bbc40d4983c42502919d010e797.png" title=" Bajar scroll" width="1366"/>
-                <img src="754d5833a6192734e80323e5e251649605503568d7b2d3e1319a748ab0f82e27.png" title=" Bajar scroll (completed)" width="1366"/>
-                <img src="754d5833a6192734e80323e5e251649605503568d7b2d3e1319a748ab0f82e27.png" title=" Flotar mouse sobre articulo dos" width="1366"/>
-                <img src="faab3bee7d480edc47280ab347e85a4e7ff7efa8e8ae11d369fd755e450eac18.png" title=" Flotar mouse sobre articulo dos (completed)" width="1366"/>
-                <img src="faab3bee7d480edc47280ab347e85a4e7ff7efa8e8ae11d369fd755e450eac18.png" title=" Click agregar al carro dos" width="1366"/>
-                <img src="d368b47315a92fa3acf18378d161f8b4699a4b959ee19c9c7304749b44e4965a.png" title=" Click agregar al carro dos (completed)" width="1366"/>
-                <img src="d368b47315a92fa3acf18378d161f8b4699a4b959ee19c9c7304749b44e4965a.png" title=" Ingresar nueva busqueda" width="1366"/>
-                <img src="06cb8ac7125404187959aa178545a9b53c45ffc1a264e8493bd1d89313701127.png" title=" Ingresar nueva busqueda (completed)" width="1366"/>
-                <img src="06cb8ac7125404187959aa178545a9b53c45ffc1a264e8493bd1d89313701127.png" title=" Click enter busqueda" width="1366"/>
+                <img src="94cb5b2ec8a8bb39d9e0e0ba39bb2549fae32b5189d9fa47f8e79fca657a8cc9.png" title=" Bajar scroll (completed)" width="1366"/>
+                <img src="94cb5b2ec8a8bb39d9e0e0ba39bb2549fae32b5189d9fa47f8e79fca657a8cc9.png" title=" Flotar mouse sobre articulo" width="1366"/>
+                <img src="5e0c5e48e4807ab21e81f31e2b3cc4fd59323f40457966fe3d0dbafc8890470d.png" title=" Flotar mouse sobre articulo (completed)" width="1366"/>
+                <img src="5e0c5e48e4807ab21e81f31e2b3cc4fd59323f40457966fe3d0dbafc8890470d.png" title=" Click agregar al carro" width="1366"/>
+                <img src="d72e75aaf53d98621674323b80e4aca1177ea226c6d38f62e12fc4a89551be20.png" title=" Click agregar al carro (completed)" width="1366"/>
+                <img src="d72e75aaf53d98621674323b80e4aca1177ea226c6d38f62e12fc4a89551be20.png" title=" Ingresar nueva busqueda" width="1366"/>
+                <img src="a2ef15bfb10f7ea1daa994f681b55b9800113164cc0c6256209c7f323d5f041d.png" title=" Ingresar nueva busqueda (completed)" width="1366"/>
+                <img src="a2ef15bfb10f7ea1daa994f681b55b9800113164cc0c6256209c7f323d5f041d.png" title=" Click enter busqueda" width="1366"/>
                 <img src="61a19f212f4e8d8cfbc1c4ab5a287baaab6b387e9d504b9e2f3dd59ca190b108.png" title=" Click enter busqueda (completed)" width="1366"/>
                 <img src="61a19f212f4e8d8cfbc1c4ab5a287baaab6b387e9d504b9e2f3dd59ca190b108.png" title=" Bajar scroll" width="1366"/>
-                <img src="97c632348d333f40e618d40a0c6b7592cb67e3bcbf61ceabd59581e9f77f3b57.png" title=" Bajar scroll (completed)" width="1366"/>
-                <img src="97c632348d333f40e618d40a0c6b7592cb67e3bcbf61ceabd59581e9f77f3b57.png" title=" Flotar mouse sobre articulo tres" width="1366"/>
-                <img src="f4620bc966d45e8c572f043f28a357500963a22e5d492b188b2fc17bc93881b4.png" title=" Flotar mouse sobre articulo tres (completed)" width="1366"/>
-                <img src="f4620bc966d45e8c572f043f28a357500963a22e5d492b188b2fc17bc93881b4.png" title=" Click agregar al carro tres" width="1366"/>
-                <img src="4478fdb3b52be1211c2b802d17dede2f9fec05efcedaa1410fae8af2a140035e.png" title=" Click agregar al carro tres (completed)" width="1366"/>
-                <img src="2621dc74079663b4e1d37ec3b26d564997f0f9d4a00b1e58778279744a0d6a5c.png" title=" Click pasar por caja" width="1366"/>
-                <img src="ff82f69fadfe16940178125e3ee95183c587014d1430cbbf5d6c6cd862cd0a73.png" title=" Click pasar por caja (completed)" width="1366"/>
-                <img src="ff82f69fadfe16940178125e3ee95183c587014d1430cbbf5d6c6cd862cd0a73.png" title=" Cuando agregar tres articulos al carro de compra (completed)" width="1366"/>
-                <img src="d3797813199d5f6f3ed248113d4161d20661d21783ce7eaa5b10f4426b126c8c.png" title=" Y passar por caja - llenar los datos y cancelar compra" width="1366"/>
-                <img src="d3797813199d5f6f3ed248113d4161d20661d21783ce7eaa5b10f4426b126c8c.png" title=" Entonces visualizara no tienes ningun articulo en tu carrito de compras: <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="668981859135f57b2037b0268fe42de6e0eb70728867c0a7f16209c1b893de5e.png" title=" Bajar scroll (completed)" width="1366"/>
+                <img src="668981859135f57b2037b0268fe42de6e0eb70728867c0a7f16209c1b893de5e.png" title=" Flotar mouse sobre articulo dos" width="1366"/>
+                <img src="073cce22d939fd97c930b80b1eb1a38e84a0a3390253d87c3e457644e3cca9b7.png" title=" Flotar mouse sobre articulo dos (completed)" width="1366"/>
+                <img src="073cce22d939fd97c930b80b1eb1a38e84a0a3390253d87c3e457644e3cca9b7.png" title=" Click agregar al carro dos" width="1366"/>
+                <img src="798e37f86a014e5d9b8928dfc5dd6c0b289401da788fb4efeef417207b159293.png" title=" Click agregar al carro dos (completed)" width="1366"/>
+                <img src="798e37f86a014e5d9b8928dfc5dd6c0b289401da788fb4efeef417207b159293.png" title=" Ingresar nueva busqueda" width="1366"/>
+                <img src="3ee4e6af2484005e9c4afcc6c570a5b6bf726d5ecfde6615dba5ddb6ae54c8c6.png" title=" Ingresar nueva busqueda (completed)" width="1366"/>
+                <img src="3ee4e6af2484005e9c4afcc6c570a5b6bf726d5ecfde6615dba5ddb6ae54c8c6.png" title=" Click enter busqueda" width="1366"/>
+                <img src="61a19f212f4e8d8cfbc1c4ab5a287baaab6b387e9d504b9e2f3dd59ca190b108.png" title=" Click enter busqueda (completed)" width="1366"/>
+                <img src="61a19f212f4e8d8cfbc1c4ab5a287baaab6b387e9d504b9e2f3dd59ca190b108.png" title=" Bajar scroll" width="1366"/>
+                <img src="5b0aa33d2323a6fe289f50b70b5dd09f1ff09c7761702c858f1c1457ed4fc861.png" title=" Bajar scroll (completed)" width="1366"/>
+                <img src="5b0aa33d2323a6fe289f50b70b5dd09f1ff09c7761702c858f1c1457ed4fc861.png" title=" Flotar mouse sobre articulo tres" width="1366"/>
+                <img src="fd59519579efd553037fe5753cb4f119587e6fff61142b88dcba618fd73e8440.png" title=" Flotar mouse sobre articulo tres (completed)" width="1366"/>
+                <img src="fd59519579efd553037fe5753cb4f119587e6fff61142b88dcba618fd73e8440.png" title=" Click agregar al carro tres" width="1366"/>
+                <img src="74b9c6b76c240a29e302e0333a746a1f5e8c96ef3c49cbff678e55f0d37fd889.png" title=" Click agregar al carro tres (completed)" width="1366"/>
+                <img src="2a3a64b3897bb6005d5ecf2060d39eaf50acfe7fe6631079a3f6c5b49bf43e5c.png" title=" Click pasar por caja" width="1366"/>
+                <img src="c1b949f48083ed61aa87ada7c901af7743daeb562c3b3ffa2f081288f8284bf8.png" title=" Click pasar por caja (completed)" width="1366"/>
+                <img src="c1b949f48083ed61aa87ada7c901af7743daeb562c3b3ffa2f081288f8284bf8.png" title=" Cuando agregar tres articulos al carro de compra (completed)" width="1366"/>
+                <img src="bf30ef54237046845828348c6d263bbf36e562efa602f43a057cd377a6a59fd9.png" title=" Y passar por caja - llenar los datos y cancelar compra" width="1366"/>
+                <img src="bf30ef54237046845828348c6d263bbf36e562efa602f43a057cd377a6a59fd9.png" title=" Entonces visualizara no tienes ningun articulo en tu carrito de compras" width="1366"/>
+                <img src="bf30ef54237046845828348c6d263bbf36e562efa602f43a057cd377a6a59fd9.png" title=" Validar carro vacio: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

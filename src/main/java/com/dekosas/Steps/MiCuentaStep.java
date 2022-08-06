@@ -14,7 +14,6 @@ public class MiCuentaStep {
     public void validarMensajeMiCuenta(){
     Assert.assertThat(miCuentaPageObject.getDriver().
             findElement(miCuentaPageObject.getMsjMiCuenta()).isDisplayed(), Matchers.is(true));
-
     }
 
 

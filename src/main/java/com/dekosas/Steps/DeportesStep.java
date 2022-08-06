@@ -17,7 +17,6 @@ public class DeportesStep {
                 deportesPageObject.getColumnaMain());
     }
 
-
     @Step
     public void clickAccesoriosDeportivos(){
         deportesPageObject.getDriver().findElement(deportesPageObject.getBtnAccesoriosDeportivos()).click();

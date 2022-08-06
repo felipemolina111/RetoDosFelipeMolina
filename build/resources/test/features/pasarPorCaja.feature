@@ -4,9 +4,9 @@
 
     Antecedentes:
       Dado el usuario se encuentre en la pagina web
-      Dado ingrese el usuario y la contraseña
+      Dado el usuario ingrese el usuario y la contraseña
 
-      Escenario: pasar por caja tres productos
-        Cuando agregar tres articulos al carro de compra
-        Y passar por caja - llenar los datos y cancelar compra
-        Entonces visualizara no tienes ningun articulo en tu carrito de compras
+      Escenario: el usuario da click en pasar por caja tres productos
+        Cuando el usuario agrega tres articulos al carro de compra
+        Y el usuario da click en pasar por caja - llenar los datos y cancelar compra
+        Entonces el usuario visualizara no tienes ningun articulo en tu carrito de compras

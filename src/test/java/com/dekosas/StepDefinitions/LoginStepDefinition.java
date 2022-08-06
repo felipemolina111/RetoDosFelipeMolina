@@ -40,7 +40,8 @@ public class LoginStepDefinition {
 
     @Entonces("^el usuario visualizara el mensaje Mi Cuenta$")
     public void visualizaraElMensajeMiCuenta() {
-    //miCuentaStep.validarMensajeMiCuenta();
+        paginaPrincipalStep.clickBienvenidoMiCuenta();
+        miCuentaStep.validarMensajeMiCuenta();
     }
 
 

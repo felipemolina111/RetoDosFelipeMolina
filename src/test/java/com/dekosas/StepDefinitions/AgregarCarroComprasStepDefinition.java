@@ -30,12 +30,12 @@ DatosEnvioStep datosEnvioStep;
 
     @Cuando("^el usuario selecciona una categoria y una subcategoria$")
     public void seleccione_una_categoria_y_una_subcategoria() {
-    paginaPrincipalStep.clickTodaLaTienda();
-    paginaPrincipalStep.clickDeportes();
-    deportesStep.bajarScroll();
-    deportesStep.clickAccesoriosDeportivos();
-    accesoriosDeportivosStep.bajarScroll();
-    accesoriosDeportivosStep.clickBotellasDeportivas();
+        paginaPrincipalStep.clickTodaLaTienda();
+        paginaPrincipalStep.clickDeportes();
+        deportesStep.bajarScroll();
+        deportesStep.clickAccesoriosDeportivos();
+        accesoriosDeportivosStep.bajarScroll();
+        accesoriosDeportivosStep.clickBotellasDeportivas();
 
     }
 
@@ -58,9 +58,10 @@ DatosEnvioStep datosEnvioStep;
 
     @Entonces("^el usuario visualizara dos articulos y cuatro cantidades$")
     public void visualizara_dos_articulos_y_cuatro_cantidades() {
-    datosEnvioStep.clickMinicart();
-    carroComprasStep.esperaMensajeCantidadDeArticulos();
-    carroComprasStep.validarCantidadDeArticulos();
+        carroComprasStep.esperarMensajeTotalPedido();
+        datosEnvioStep.clickMinicart();
+        carroComprasStep.esperaMensajeCantidadDeArticulos();
+        carroComprasStep.validarCantidadDeArticulos();
     }
 
 

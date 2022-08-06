@@ -19,20 +19,12 @@ public class CarroComprasPageObject extends PageObject {
 
 
     public By getTxtCantidadArticulos() { return txtCantidadArticulos; }
-
     public By getBtnAumentarCantidad() { return btnAumentarCantidad; }
-
     public By getTxtBarraBusqueda() { return txtBarraBusqueda; }
-
     public By getBtnEnterBusqueda() { return btnEnterBusqueda; }
-
     public By getBtnPasarPorCaja() { return btnPasarPorCaja; }
-
     public By getMsjTotalPedido() { return msjTotalPedido; }
-
     public By getMsjCantidadArticulos() { return msjCantidadArticulos; }
-
     public By getBtnActualizarCarroCompras() { return btnActualizarCarroCompras; }
-
     public By getBtnMiniCart() { return btnMiniCart; }
 }

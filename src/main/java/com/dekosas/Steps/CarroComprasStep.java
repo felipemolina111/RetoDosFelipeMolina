@@ -23,13 +23,9 @@ public class CarroComprasStep {
     public void clickAumentarCantidad(){
         carroComprasPageObject.getDriver().
                 findElement(carroComprasPageObject.getBtnAumentarCantidad()).click();
+        esperaImplicita.esperaImplicita(2);
     }
 
-    @Step
-    public void borrarCantidadArticulos(){
-    carroComprasPageObject.getDriver().
-        findElement(carroComprasPageObject.getTxtCantidadArticulos()).sendKeys(Keys.DELETE);
-    }
 
     @Step
     public void ingresarNuevaBusqueda (){
@@ -39,45 +35,39 @@ public class CarroComprasStep {
 
     @Step
     public void clickEnterBusqueda (){
-
         carroComprasPageObject.getDriver().
                 findElement(carroComprasPageObject.getBtnEnterBusqueda()).click();
     }
 
     @Step
     public void clickPasarPorCaja (){
-
     carroComprasPageObject.getDriver().
             findElement(carroComprasPageObject.getBtnPasarPorCaja()).click();
 }
-
+    @Step
     public void esperarMensajeTotalPedido(){
         esperaExplicita.esperaExplicitaTexto(carroComprasPageObject.getDriver(),
                 carroComprasPageObject.getMsjTotalPedido());
     }
 
+    @Step
     public void esperaMensajeCantidadDeArticulos(){
         esperaExplicita.esperaExplicitaTexto(carroComprasPageObject.getDriver(),
                 carroComprasPageObject.getMsjCantidadArticulos());
-
     }
 
+    @Step
     public void validarCantidadDeArticulos (){
     assertEquals(carroComprasPageObject.getDriver().
-            findElement(carroComprasPageObject.getMsjCantidadArticulos()),"4");
-
+            findElement(carroComprasPageObject.getMsjCantidadArticulos()).getText(),"4");
     }
 
+    @Step
     public void actualizarCarroCompras (){
         carroComprasPageObject.getDriver().
                 findElement(carroComprasPageObject.getBtnActualizarCarroCompras()).click();
         esperaImplicita.esperaImplicita(3);
     }
 
-    public void clickMinicart (){
-
-        carroComprasPageObject.getDriver().findElement(carroComprasPageObject.getBtnMiniCart()).click();
-
-    }
 
 }

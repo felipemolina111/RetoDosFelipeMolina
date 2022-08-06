@@ -12,10 +12,8 @@ public class LoginPageObject extends PageObject {
     public By getTxtCorreo() {
         return txtCorreo;
     }
-
     public By getTxtClave() {
         return txtClave;
     }
-
     public By getBtnEntrar() { return btnEntrar; }
 }

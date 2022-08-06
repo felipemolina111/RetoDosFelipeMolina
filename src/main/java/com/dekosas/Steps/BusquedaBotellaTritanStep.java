@@ -18,7 +18,6 @@ public class BusquedaBotellaTritanStep {
                 busquedaBotellaTritanPageObject.getColumnMain());
     }
 
-
     @Step
     public void flotarMouseSobreArticulo(){
         mouseFloante.moverMouseFlotante(busquedaBotellaTritanPageObject.getDriver(),
@@ -29,7 +28,6 @@ public class BusquedaBotellaTritanStep {
     public void clickAgregarAlCarro(){
         busquedaBotellaTritanPageObject.getDriver().
                 findElement(busquedaBotellaTritanPageObject.getBtnAgregarAlCarro()).click();
-
     }
 
     @Step
@@ -42,7 +40,6 @@ public class BusquedaBotellaTritanStep {
     public void clickAgregarAlCarroDos(){
         busquedaBotellaTritanPageObject.getDriver().
                 findElement(busquedaBotellaTritanPageObject.getBtnAgregarAlCarroDos()).click();
-
     }
 
     @Step
@@ -55,7 +52,6 @@ public class BusquedaBotellaTritanStep {
     public void clickAgregarAlCarroTres(){
         busquedaBotellaTritanPageObject.getDriver().
                 findElement(busquedaBotellaTritanPageObject.getBtnAgregarAlCarroTres()).click();
-
     }
 
 }

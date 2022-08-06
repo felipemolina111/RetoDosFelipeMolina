@@ -22,26 +22,15 @@ public class DatosEnvioPageObject extends PageObject {
 
 
     public By getTxtDireccion() { return txtDireccion; }
-
     public By getLstEstado() { return lstEstado; }
-
     public By getLstCiudad() { return lstCiudad; }
-
     public By getTxtTelefono() { return txtTelefono; }
-
     public By getLstTipoDocumento() { return lstTipoDocumento; }
-
     public By getTxtNumeroDocumento() { return txtNumeroDocumento; }
-
     public By getMsjDatosDeEnvio() { return msjDatosDeEnvio; }
-
     public By getBtnMiniCart() { return btnMiniCart; }
-
     public By getBtnCancelarCompraArticulo() { return btnCancelarCompraArticulo; }
-
     public By getBtnAceptarCancelarCompra() { return btnAceptarCancelarCompra; }
-
     public By getMsjCarroVacio() { return msjCarroVacio; }
-
     public By getImgArticulo() { return imgArticulo; }
 }

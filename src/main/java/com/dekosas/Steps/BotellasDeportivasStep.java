@@ -16,17 +16,13 @@ public class BotellasDeportivasStep {
     public void bajarScroll (){
         scroll.scrollElemento(botellasDeportivasPageObject.getDriver(),
                 botellasDeportivasPageObject.getColumnMain());
-
     }
-
 
     @Step
     public void flotarMouseSobreArticulo(){
     mouseFloante.moverMouseFlotante(botellasDeportivasPageObject.getDriver(),
             botellasDeportivasPageObject.getImgArticulo());
     }
-
-
 
     @Step
     public void clickAgregarCarroArticulo (){
