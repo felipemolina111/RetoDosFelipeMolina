@@ -16,8 +16,8 @@ com/dekosas/Utils/MouseFloante.java
  com.dekosas.Utils.MouseFloante
 com/dekosas/PageOjects/DeportesPageObject.java
  com.dekosas.PageOjects.DeportesPageObject
-com/dekosas/Steps/DatosEnvioStep.java
- com.dekosas.Steps.DatosEnvioStep
+com/dekosas/PageOjects/LoginPageObject.java
+ com.dekosas.PageOjects.LoginPageObject
 com/dekosas/PageOjects/BusquedaBotellaTritanPageObject.java
  com.dekosas.PageOjects.BusquedaBotellaTritanPageObject
 com/dekosas/PageOjects/BotellasDeportivasPageObject.java
@@ -32,8 +32,8 @@ com/dekosas/Steps/BusquedaBotellaTritanStep.java
  com.dekosas.Steps.BusquedaBotellaTritanStep
 com/dekosas/Steps/BotellasDeportivasStep.java
  com.dekosas.Steps.BotellasDeportivasStep
-com/dekosas/Steps/LoginStep.java
- com.dekosas.Steps.LoginStep
+com/dekosas/Steps/DatosEnvioStep.java
+ com.dekosas.Steps.DatosEnvioStep
 com/dekosas/Steps/PaginaPrincipalStep.java
  com.dekosas.Steps.PaginaPrincipalStep
 com/dekosas/Steps/AccesoriosDeportivosStep.java
@@ -44,5 +44,5 @@ com/dekosas/Steps/DeportesStep.java
  com.dekosas.Steps.DeportesStep
 com/dekosas/PageOjects/AccesoriosDeportivosPageObject.java
  com.dekosas.PageOjects.AccesoriosDeportivosPageObject
-com/dekosas/PageOjects/LoginPageObject.java
- com.dekosas.PageOjects.LoginPageObject
+com/dekosas/Steps/LoginStep.java
+ com.dekosas.Steps.LoginStep

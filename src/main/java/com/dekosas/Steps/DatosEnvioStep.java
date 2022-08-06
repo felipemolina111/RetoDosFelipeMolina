@@ -81,12 +81,6 @@ public class DatosEnvioStep {
         esperaImplicita.esperaImplicita(3);
     }
 
-    @Step
-    public void esperaBotonAceptar(){
-        esperaExplicita.esperaExplicitaTexto(datosEnvioPageObject.getDriver(),
-                datosEnvioPageObject.getBtnAceptarCancelarCompra());
-
-    }
 
     @Step
     public void esperaBotonCancelarCompra(){

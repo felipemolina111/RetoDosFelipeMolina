@@ -55,15 +55,12 @@ public class PasarPorCajaStepDefinition {
         datosEnvioStep.clickMinicart();
         datosEnvioStep.esperaBotonCancelarCompra();
         datosEnvioStep.clickCancelarCompraArticulo();
-        datosEnvioStep.esperaBotonAceptar();
         datosEnvioStep.clickAceptarCancelarCompra();
         datosEnvioStep.esperaBotonCancelarCompra();
         datosEnvioStep.clickCancelarCompraArticulo();
-        datosEnvioStep.esperaBotonAceptar();
         datosEnvioStep.clickAceptarCancelarCompra();
         datosEnvioStep.esperaBotonCancelarCompra();
         datosEnvioStep.clickCancelarCompraArticulo();
-        datosEnvioStep.esperaBotonAceptar();
         datosEnvioStep.clickAceptarCancelarCompra();
 
     }

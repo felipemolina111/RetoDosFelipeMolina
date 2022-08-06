@@ -4,9 +4,9 @@ com/dekosas/Runners/AgregarCarroComprasRunner.java
  com.dekosas.Runners.AgregarCarroComprasRunner
 com/dekosas/Runners/PasarPorCajaRunner.java
  com.dekosas.Runners.PasarPorCajaRunner
-com/dekosas/StepDefinitions/AgregarCarroComprasStepDefinition.java
- com.dekosas.StepDefinitions.AgregarCarroComprasStepDefinition
 com/dekosas/StepDefinitions/LoginStepDefinition.java
  com.dekosas.StepDefinitions.LoginStepDefinition
+com/dekosas/StepDefinitions/AgregarCarroComprasStepDefinition.java
+ com.dekosas.StepDefinitions.AgregarCarroComprasStepDefinition
 com/dekosas/StepDefinitions/PasarPorCajaStepDefinition.java
  com.dekosas.StepDefinitions.PasarPorCajaStepDefinition
